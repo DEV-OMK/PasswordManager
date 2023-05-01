@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  border: 1px solid #f8fafc;
+  border-radius: 6px;
+  margin: 2px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  li {
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 2%;
+  }
+}
+
+.profile-container {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  padding: auto;
+}
+
+.profile-initial {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin-left: 15px;
+  margin-right: 6px;
+  flex-grow: 1;
+}
+
+.website-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.username-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.password-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.stars-image {
+  height: 14px;
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .stars-image {
+    height: 14px;
+    width: 100%;
+  }
+}
+
+.delete-icon-container {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.background-a {
+  background-color: aqua;
+}
+
+.background-b {
+  background-color: #f59e0b;
+}
+
+.background-c {
+  background-color: #10b981;
+}
+
+.background-d {
+  background-color: #f97316;
+}
+
+.background-e {
+  background-color: #14b8a6;
+}
+
+.background-f {
+  background-color: #b91c1c;
+}
+
+.background-g {
+  background-color: #0ea5e9;
+}
